@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# 实验产物与本地依赖（体积大，不入库）
+artifacts/
+third_party/
+legacy/
+logs/
+
+# 运行期生成的汇总报告
+reports/
